@@ -4,17 +4,17 @@
   <meta charset="utf-8">
   
   
-  <title>2025-02-10个人博客诞生了 | 小俊的个人博客</title>
+  <title>jenkins 部署教程指南 | 小俊的个人博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="2025-02-10 这是第一次搭建自己的个人博客平台！">
+  <meta name="description" content="本文主要整理 jenkins 部署项目教程注：文章内容相对而言有一定的难度，所以需要读者有一定的基础。另外，若文章有何不妥之处或者你有任何疑问，欢迎留言讨论。 jenkins 部署命令docker pull jenkins&#x2F;jenkins:ltsmkdir &#x2F;var&#x2F;jenkins_homechmod 777 &#x2F;var &#x2F;jenkins_home&amp;">
 <meta property="og:type" content="article">
-<meta property="og:title" content="2025-02-10个人博客诞生了">
-<meta property="og:url" content="https://770746548.github.io/2025/02/10/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/index.html">
+<meta property="og:title" content="jenkins 部署教程指南">
+<meta property="og:url" content="https://770746548.github.io/2026/01/15/jenkins%E9%83%A8%E7%BD%B2/index.html">
 <meta property="og:site_name" content="小俊的个人博客">
-<meta property="og:description" content="2025-02-10 这是第一次搭建自己的个人博客平台！">
+<meta property="og:description" content="本文主要整理 jenkins 部署项目教程注：文章内容相对而言有一定的难度，所以需要读者有一定的基础。另外，若文章有何不妥之处或者你有任何疑问，欢迎留言讨论。 jenkins 部署命令docker pull jenkins&#x2F;jenkins:ltsmkdir &#x2F;var&#x2F;jenkins_homechmod 777 &#x2F;var &#x2F;jenkins_home&amp;">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2025-02-10T01:00:00.000Z">
-<meta property="article:modified_time" content="2025-04-17T07:54:46.104Z">
+<meta property="article:published_time" content="2026-01-15T02:00:00.000Z">
+<meta property="article:modified_time" content="2026-01-15T05:21:44.328Z">
 <meta property="article:author" content="小俊">
 <meta name="twitter:card" content="summary">
   
@@ -73,10 +73,10 @@
 </header>
 
       <div class="outer">
-        <section id="main"><article id="post-个人博客" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+        <section id="main"><article id="post-jenkins部署" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
-    <a href="/2025/02/10/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" class="article-date">
-  <time class="dt-published" datetime="2025-02-10T01:00:00.000Z" itemprop="datePublished">2025-02-10</time>
+    <a href="/2026/01/15/jenkins%E9%83%A8%E7%BD%B2/" class="article-date">
+  <time class="dt-published" datetime="2026-01-15T02:00:00.000Z" itemprop="datePublished">2026-01-15</time>
 </a>
     
   </div>
@@ -87,7 +87,7 @@
         
   
     <h1 class="p-name article-title" itemprop="headline name">
-      2025-02-10个人博客诞生了
+      jenkins 部署教程指南
     </h1>
   
 
@@ -95,13 +95,16 @@
     
     <div class="e-content article-entry" itemprop="articleBody">
       
-        <p>2025-02-10</p>
-<p>这是第一次搭建自己的个人博客平台！</p>
+        <p>本文主要整理 jenkins 部署项目教程<br>注：文章内容相对而言有一定的难度，所以需要读者有一定的基础。另外，若文章有何不妥之处或者你有任何疑问，欢迎留言讨论。</p>
+<h1 id="jenkins-部署命令"><a href="#jenkins-部署命令" class="headerlink" title="jenkins 部署命令"></a>jenkins 部署命令</h1><p>docker pull jenkins&#x2F;jenkins:lts<br>mkdir &#x2F;var&#x2F;jenkins_home<br>chmod 777 &#x2F;var &#x2F;jenkins_home&#x2F;<br>docker run -itd -p 2080:8080 -p 50001:50000 <br>–name jenkins <br>–privileged&#x3D;true <br>-v &#x2F;usr&#x2F;lib&#x2F;jvm&#x2F;openjdk-11:&#x2F;usr&#x2F;lib&#x2F;jvm&#x2F;openjdk-11 <br>-v &#x2F;var&#x2F;jenkins_home:&#x2F;var&#x2F;jenkins_home \ jenkins&#x2F;jenkins:lts</p>
+<p>执行 shell 命令<br>node -v<br>npm install -g yarn<br>yarn -v<br>yarn install<br>yarn build</p>
+<p>项目构建 ssh 命令<br>mkdir &#x2F;home&#x2F;tianxing&#x2F;data&#x2F;poilt<br>cp -rf &#x2F;home&#x2F;tianxing&#x2F;data&#x2F;backups&#x2F;poilt<br>rm -rf &#x2F;home&#x2F;tianxing&#x2F;data&#x2F;backups&#x2F;poilt</p>
+<p>插件安装<br>Publish Over SSH<br>nodejs<br>gitlab<br>钉钉机器人</p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://770746548.github.io/2025/02/10/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" data-id="cmkf0yk9z000jnkmha5gh0f6i" data-title="2025-02-10个人博客诞生了" class="article-share-link">Share</a>
+      <a data-url="https://770746548.github.io/2026/01/15/jenkins%E9%83%A8%E7%BD%B2/" data-id="cmkf0yk9u0008nkmhbwug2oji" data-title="jenkins 部署教程指南" class="article-share-link">Share</a>
       
       
       
@@ -111,15 +114,11 @@
     
 <nav id="article-nav">
   
-    <a href="/2025/02/10/Vue%E8%84%9A%E6%89%8B%E6%9E%B6%E5%AE%89%E8%A3%85%E6%B5%81%E7%A8%8B%E8%AF%A6%E8%A7%A3/" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Newer</strong>
-      <div class="article-nav-title">
-        
-          Vue脚手架安装流程详解
-        
-      </div>
-    </a>
   
+    <a href="/2025/03/28/TypeScript/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">🔥 TypeScript</div>
+    </a>
   
 </nav>
 

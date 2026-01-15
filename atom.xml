@@ -6,7 +6,7 @@
   <link href="https://770746548.github.io/atom.xml" rel="self"/>
   
   <link href="https://770746548.github.io/"/>
-  <updated>2025-04-17T07:56:19.588Z</updated>
+  <updated>2026-01-15T05:21:44.328Z</updated>
   <id>https://770746548.github.io/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>jenkins 部署教程指南</title>
+    <link href="https://770746548.github.io/2026/01/15/jenkins%E9%83%A8%E7%BD%B2/"/>
+    <id>https://770746548.github.io/2026/01/15/jenkins%E9%83%A8%E7%BD%B2/</id>
+    <published>2026-01-15T02:00:00.000Z</published>
+    <updated>2026-01-15T05:21:44.328Z</updated>
+    
+    <content type="html"><![CDATA[<p>本文主要整理 jenkins 部署项目教程<br>注：文章内容相对而言有一定的难度，所以需要读者有一定的基础。另外，若文章有何不妥之处或者你有任何疑问，欢迎留言讨论。</p><h1 id="jenkins-部署命令"><a href="#jenkins-部署命令" class="headerlink" title="jenkins 部署命令"></a>jenkins 部署命令</h1><p>docker pull jenkins&#x2F;jenkins:lts<br>mkdir &#x2F;var&#x2F;jenkins_home<br>chmod 777 &#x2F;var &#x2F;jenkins_home&#x2F;<br>docker run -itd -p 2080:8080 -p 50001:50000 <br>–name jenkins <br>–privileged&#x3D;true <br>-v &#x2F;usr&#x2F;lib&#x2F;jvm&#x2F;openjdk-11:&#x2F;usr&#x2F;lib&#x2F;jvm&#x2F;openjdk-11 <br>-v &#x2F;var&#x2F;jenkins_home:&#x2F;var&#x2F;jenkins_home \ jenkins&#x2F;jenkins:lts</p><p>执行 shell 命令<br>node -v<br>npm install -g yarn<br>yarn -v<br>yarn install<br>yarn build</p><p>项目构建 ssh 命令<br>mkdir &#x2F;home&#x2F;tianxing&#x2F;data&#x2F;poilt<br>cp -rf &#x2F;home&#x2F;tianxing&#x2F;data&#x2F;backups&#x2F;poilt<br>rm -rf &#x2F;home&#x2F;tianxing&#x2F;data&#x2F;backups&#x2F;poilt</p><p>插件安装<br>Publish Over SSH<br>nodejs<br>gitlab<br>钉钉机器人</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;本文主要整理 jenkins 部署项目教程&lt;br&gt;注：文章内容相对而言有一定的难度，所以需要读者有一定的基础。另外，若文章有何不妥之处或者你有任何疑问，欢迎留言讨论。&lt;/p&gt;
+&lt;h1 id=&quot;jenkins-部署命令&quot;&gt;&lt;a href=&quot;#jenkins-部署命令&quot; cla</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>🔥 TypeScript</title>

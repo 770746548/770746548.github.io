@@ -73,6 +73,49 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-jenkins部署" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2026/01/15/jenkins%E9%83%A8%E7%BD%B2/" class="article-date">
+  <time class="dt-published" datetime="2026-01-15T02:00:00.000Z" itemprop="datePublished">2026-01-15</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/2026/01/15/jenkins%E9%83%A8%E7%BD%B2/">jenkins 部署教程指南</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <p>本文主要整理 jenkins 部署项目教程<br>注：文章内容相对而言有一定的难度，所以需要读者有一定的基础。另外，若文章有何不妥之处或者你有任何疑问，欢迎留言讨论。</p>
+<h1 id="jenkins-部署命令"><a href="#jenkins-部署命令" class="headerlink" title="jenkins 部署命令"></a>jenkins 部署命令</h1><p>docker pull jenkins&#x2F;jenkins:lts<br>mkdir &#x2F;var&#x2F;jenkins_home<br>chmod 777 &#x2F;var &#x2F;jenkins_home&#x2F;<br>docker run -itd -p 2080:8080 -p 50001:50000 <br>–name jenkins <br>–privileged&#x3D;true <br>-v &#x2F;usr&#x2F;lib&#x2F;jvm&#x2F;openjdk-11:&#x2F;usr&#x2F;lib&#x2F;jvm&#x2F;openjdk-11 <br>-v &#x2F;var&#x2F;jenkins_home:&#x2F;var&#x2F;jenkins_home \ jenkins&#x2F;jenkins:lts</p>
+<p>执行 shell 命令<br>node -v<br>npm install -g yarn<br>yarn -v<br>yarn install<br>yarn build</p>
+<p>项目构建 ssh 命令<br>mkdir &#x2F;home&#x2F;tianxing&#x2F;data&#x2F;poilt<br>cp -rf &#x2F;home&#x2F;tianxing&#x2F;data&#x2F;backups&#x2F;poilt<br>rm -rf &#x2F;home&#x2F;tianxing&#x2F;data&#x2F;backups&#x2F;poilt</p>
+<p>插件安装<br>Publish Over SSH<br>nodejs<br>gitlab<br>钉钉机器人</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://770746548.github.io/2026/01/15/jenkins%E9%83%A8%E7%BD%B2/" data-id="cmkf0yk9u0008nkmhbwug2oji" data-title="jenkins 部署教程指南" class="article-share-link">Share</a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
     <article id="post-TypeScript" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
     <a href="/2025/03/28/TypeScript/" class="article-date">
@@ -145,7 +188,7 @@ speak(words: string): void
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://770746548.github.io/2025/03/28/TypeScript/" data-id="cm9l2vdid0005q0z3ee4j2odz" data-title="🔥 TypeScript" class="article-share-link">Share</a>
+      <a data-url="https://770746548.github.io/2025/03/28/TypeScript/" data-id="cmkf0yk9s0005nkmhe61e50bv" data-title="🔥 TypeScript" class="article-share-link">Share</a>
       
       
       
@@ -292,7 +335,7 @@ speak(words: string): void
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://770746548.github.io/2025/03/28/vue%E9%9D%A2%E8%AF%95%E4%B8%93%E9%A2%98/" data-id="cm9l2vdif000cq0z31e8afpmj" data-title="🔥 vue面试专题" class="article-share-link">Share</a>
+      <a data-url="https://770746548.github.io/2025/03/28/vue%E9%9D%A2%E8%AF%95%E4%B8%93%E9%A2%98/" data-id="cmkf0yk9z000inkmh72nq1xja" data-title="🔥 vue面试专题" class="article-share-link">Share</a>
       
       
       
@@ -338,7 +381,7 @@ speak(words: string): void
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://770746548.github.io/2025/03/19/%E9%A5%BF%E4%BA%86%E4%B9%88%E7%BB%84%E4%BB%B6%E5%BA%93%E8%B8%A9%E5%9D%91/" data-id="cm9l2vdin000lq0z3hr8ra2yn" data-title="element-ui踩坑点" class="article-share-link">Share</a>
+      <a data-url="https://770746548.github.io/2025/03/19/%E9%A5%BF%E4%BA%86%E4%B9%88%E7%BB%84%E4%BB%B6%E5%BA%93%E8%B8%A9%E5%9D%91/" data-id="cmkf0yka1000rnkmheh0g7qm5" data-title="element-ui踩坑点" class="article-share-link">Share</a>
       
       
       
@@ -615,7 +658,7 @@ speak(words: string): void
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://770746548.github.io/2025/02/28/HTML+CSS/" data-id="cm9l2vdi60000q0z36z35hmxd" data-title="🔥 HTML &amp;&amp; CSS" class="article-share-link">Share</a>
+      <a data-url="https://770746548.github.io/2025/02/28/HTML+CSS/" data-id="cmkf0yk9k0000nkmhgaigahtq" data-title="🔥 HTML &amp;&amp; CSS" class="article-share-link">Share</a>
       
       
       
@@ -841,7 +884,7 @@ speak(words: string): void
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://770746548.github.io/2025/02/28/JavaScript/" data-id="cm9l2vdie0008q0z3emgv7tjd" data-title="🔥 JavaScript" class="article-share-link">Share</a>
+      <a data-url="https://770746548.github.io/2025/02/28/JavaScript/" data-id="cmkf0yk9o0001nkmhhydg56bv" data-title="🔥 JavaScript" class="article-share-link">Share</a>
       
       
       
@@ -1053,7 +1096,7 @@ speak(words: string): void
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://770746548.github.io/2025/02/28/react/" data-id="cm9l2vdif000aq0z3cc1z7j9d" data-title="🔥 react" class="article-share-link">Share</a>
+      <a data-url="https://770746548.github.io/2025/02/28/react/" data-id="cmkf0yk9v000ankmhbjyoes39" data-title="🔥 react" class="article-share-link">Share</a>
       
       
       
@@ -1324,7 +1367,7 @@ speak(words: string): void
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://770746548.github.io/2025/02/28/%E6%B5%8F%E8%A7%88%E5%99%A8/" data-id="cm9l2vdij000iq0z304ir2l9y" data-title="🔥 浏览器" class="article-share-link">Share</a>
+      <a data-url="https://770746548.github.io/2025/02/28/%E6%B5%8F%E8%A7%88%E5%99%A8/" data-id="cmkf0yka0000mnkmh8n52aouf" data-title="🔥 浏览器" class="article-share-link">Share</a>
       
       
       
@@ -1830,7 +1873,7 @@ speak(words: string): void
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://770746548.github.io/2025/02/28/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/" data-id="cm9l2vdio000mq0z34ptg84qt" data-title="🔥 计算机网络" class="article-share-link">Share</a>
+      <a data-url="https://770746548.github.io/2025/02/28/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/" data-id="cmkf0yka1000nnkmhek6texjg" data-title="🔥 计算机网络" class="article-share-link">Share</a>
       
       
       
@@ -2162,70 +2205,10 @@ message 绑定一个函数，函数返回true就顺利跳转，false停止跳转
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://770746548.github.io/2025/02/21/note/" data-id="cm9l2vdii000hq0z36agp4xwh" data-title="react综合归类" class="article-share-link">Share</a>
+      <a data-url="https://770746548.github.io/2025/02/21/note/" data-id="cmkf0yk9w000dnkmh1ou7hbd3" data-title="react综合归类" class="article-share-link">Share</a>
       
       
       
-    </footer>
-  </div>
-  
-</article>
-
-
-
-  
-    <article id="post-MVVM与MVC" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2025/02/20/MVVM%E4%B8%8EMVC/" class="article-date">
-  <time class="dt-published" datetime="2025-02-20T05:56:00.000Z" itemprop="datePublished">2025-02-20</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2025/02/20/MVVM%E4%B8%8EMVC/">前端基础-MVVM设计思想</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <p><strong>MVC 设计思想：</strong></p>
-<p>M: model 数据模型层 提供数据</p>
-<p>V: Views 视图层 渲染数据</p>
-<p>C: controller 控制层 调用数据渲染视图<img src="https://img-blog.csdnimg.cn/20200326142457679.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MjUyODI2Ng==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><strong>MVVM 设计思想：</strong></p>
-<p>M: model 数据模型层 提供数据</p>
-<p>V: Views 视图层 渲染数据</p>
-<p>VM：ViewsModel 视图模型层 调用数据渲染视图</p>
-<p>由数据来驱动视图（不需要过多考虑 dom 操作，把重心放在 VM）</p>
-<p><img src="https://img-blog.csdnimg.cn/20200326142442911.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MjUyODI2Ng==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<h2 id="MVVM-值得用么？"><a href="#MVVM-值得用么？" class="headerlink" title="MVVM 值得用么？"></a>MVVM 值得用么？</h2><p><strong>个人非常推荐使用</strong>，并且可以直接在你现有的 MVC 基础上进行扩展，我们首先来看下优缺点</p>
-<p>优点：</p>
-<p>​ 1.Controller 清晰简洁： ViewModel 分离了大部分 Controller 代码，更加清晰和容易维护。</p>
-<p>​ 2.方便测试：开发中大部分 Bug 来至于逻辑处理，由于 ViewModel 分离了许多逻辑，可以对 ViewModel 构造单元测试。</p>
-<p>​ 3.开发解耦(举两个例子)：</p>
-<p>​ a.一人负责逻辑实现、另一人负责 UI 实现；</p>
-<p>​ b.敏捷开发时，会发经常发不是等后端做好了接口我们再去开发，不过在没有接口的情况下通常我们可以把 Controller 和 View 完成。</p>
-<p>缺点：</p>
-<p>​ 1.看起来代码会比 MVC 多点</p>
-<p>​ 2.需要对每个 Controller 实现绑定，如果处理不好，反而会有一种“画虎不成反类犬”的感觉</p>
-<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>在我实际使用过程中，MVVM 写出的代码量并不比 MVC 的少，有时反而还会多点，毕竟多了一个数据绑定过程，但逻辑会清晰很多，对于多人开发的团队，还是有不少优势的，缺点和优点相比不值一提，总之<strong>推荐使用</strong></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="https://770746548.github.io/2025/02/20/MVVM%E4%B8%8EMVC/" data-id="cm9l2vdia0001q0z35pzy73fj" data-title="前端基础-MVVM设计思想" class="article-share-link">Share</a>
-      
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E5%89%8D%E7%AB%AF%E5%9F%BA%E7%A1%80/" rel="tag">前端基础</a></li></ul>
-
     </footer>
   </div>
   
@@ -2271,7 +2254,7 @@ message 绑定一个函数，函数返回true就顺利跳转，false停止跳转
   <div class="widget-wrap">
     <h3 class="widget-title">Archives</h3>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2025/03/">March 2025</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2025/02/">February 2025</a></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2026/01/">January 2026</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2025/03/">March 2025</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2025/02/">February 2025</a></li></ul>
     </div>
   </div>
 
@@ -2282,6 +2265,10 @@ message 绑定一个函数，函数返回true就顺利跳转，false停止跳转
     <h3 class="widget-title">Recent Posts</h3>
     <div class="widget">
       <ul>
+        
+          <li>
+            <a href="/2026/01/15/jenkins%E9%83%A8%E7%BD%B2/">jenkins 部署教程指南</a>
+          </li>
         
           <li>
             <a href="/2025/03/28/TypeScript/">🔥 TypeScript</a>
@@ -2299,10 +2286,6 @@ message 绑定一个函数，函数返回true就顺利跳转，false停止跳转
             <a href="/2025/02/28/HTML+CSS/">🔥 HTML &amp;&amp; CSS</a>
           </li>
         
-          <li>
-            <a href="/2025/02/28/JavaScript/">🔥 JavaScript</a>
-          </li>
-        
       </ul>
     </div>
   </div>
@@ -2316,7 +2299,7 @@ message 绑定一个函数，函数返回true就顺利跳转，false停止跳转
   <div class="outer">
     <div id="footer-info" class="inner">
       
-      &copy; 2025 小俊<br>
+      &copy; 2026 小俊<br>
       Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
     </div>
   </div>
